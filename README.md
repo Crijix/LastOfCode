@@ -6,13 +6,14 @@ Simple action RPG console game.
 
 --------------------------------------------------------------------------------
 
-Requirements:
+REQUIREMENTS:
 
 - Visual Studio or just a another IDE
+- Sourcetree
 
 --------------------------------------------------------------------------------
 
-Installing:
+INSTALLING:
 
 Download Visual Studio via their offical webside
 To access the folders in VS, then go to:
@@ -27,7 +28,7 @@ You will not have access to everything inside the repo from Visual Studio
 
 --------------------------------------------------------------------------------
 
-Accessing the files from Sourcetree:
+ACCESSING THE FILES FROM SOURCETREE:
 
 Download Sourcetree via their offical webside
 to access the folders in Sourcetree, then go to:
@@ -45,3 +46,33 @@ Too open one of the files, then simply click on the file you wish to open then:
 - or right click on the file and click on 'Open Selected Version'
 
 --------------------------------------------------------------------------------
+
+SAVING THE FILES TO SOURCETREE:
+
+To save the files from Visual Studio to Sourcetree
+
+- Under 'Team Explorer' > Project > Changes
+- Give a description of what changes you have made
+- Hit commit all
+- Now go back to 'Team Explorer' again and go to Sync
+- Under 'Outgoing Commits' click on 'Push' 
+
+Your files should now be saved to Sourcetree
+
+--------------------------------------------------------------------------------
+
+BUILT WITH:
+
+Visual Studio - Integrated Development Environment
+Sourcetree - Git Graphical User Interface
+GitHub - Web-Based Git
+
+--------------------------------------------------------------------------------
+
+AUTHORS:
+
+Son Vo - Student/Programmer
+
+--------------------------------------------------------------------------------
+
+© 2017 SON VO ALL RIGHTS RESERVED
