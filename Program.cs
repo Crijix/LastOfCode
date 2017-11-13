@@ -24,25 +24,25 @@ namespace LastOfCode
                 if (map == "north") {
 
                     NorthMap newMap = new NorthMap();
-                    newMap.North();
+                    newMap.goNorth();
                     break;
 
                 } else if (map == "south") {
 
                     SouthMap newMap = new SouthMap();
-                    newMap.Alpha();
+                    newMap.goAlpha();
                     break;
                     
                 } else if (map == "east") {
 
                     EastMap newMap = new EastMap();
-                    newMap.Beta();
+                    newMap.goBeta();
                     break;
 
                 } else if (map == "west") {
 
                     WestMap newMap = new WestMap();
-                    newMap.Charlie();
+                    newMap.goCharlie();
                     break;
 
                 } else {
@@ -377,7 +377,7 @@ namespace LastOfCode
 
     class NorthMap
     {
-        public void North() {
+        public void goNorth() {
 
             // Encounter
             Console.WriteLine("\nYou walk into a forrest and see a monster!");
@@ -449,7 +449,7 @@ namespace LastOfCode
 
     class SouthMap
     {
-        public void Alpha() {
+        public void goAlpha() {
 
             Development newDevelop = new Development();
             newDevelop.Develop();
@@ -468,7 +468,7 @@ namespace LastOfCode
 
     class EastMap
     {
-        public void Beta() {
+        public void goBeta() {
 
             Development newDevelop = new Development();
             newDevelop.Develop();
@@ -486,7 +486,7 @@ namespace LastOfCode
 
     class WestMap
     {
-        public void Charlie() {
+        public void goCharlie() {
 
             Development newDevelop = new Development();
             newDevelop.Develop();
