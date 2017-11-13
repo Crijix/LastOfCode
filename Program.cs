@@ -92,6 +92,9 @@ namespace LastOfCode
     *                      *
     \**********************/
 
+    /// <summary>
+    /// Stores the variables inside a class
+    /// </summary>
     class Moves
     {
         // VARIABLES
@@ -107,6 +110,9 @@ namespace LastOfCode
         public static int botHealth = 100;
 
         // Attack Generator
+        /// <summary>
+        /// Generate random numbers for the attack moves
+        /// </summary>
         public void MoveRNG() {
 
             Random rng = new Random();
@@ -126,6 +132,9 @@ namespace LastOfCode
 
     class Player
     {
+        /// <summary>
+        /// Plays the game for the player
+        /// </summary>
         public void PlayerGame() {
 
                 // Player
@@ -196,6 +205,9 @@ namespace LastOfCode
 
     class AI
     {
+        /// <summary>
+        /// Plays the game for the AI
+        /// </summary>
         public void AIGame() {
 
             Random botRNG = new Random();
@@ -249,6 +261,9 @@ namespace LastOfCode
     *                      *
     \**********************/
 
+    /// <summary>
+    /// Holds the variables for the inventory
+    /// </summary>
     class Bag
     {
         // CLASS VARIABLES
@@ -256,6 +271,9 @@ namespace LastOfCode
         public int water;
         public int cookie;
 
+        /// <summary>
+        /// Stores the values of the items in inventory
+        /// </summary>
         public void FoodBag() {
 
             // Value of Items
@@ -277,6 +295,9 @@ namespace LastOfCode
     class Food
     {
         // Inventory Screen
+        /// <summary>
+        /// Takes the items from inventory and displays it to the player
+        /// </summary>
         public void Inventory() {
 
             // TODO Continue the game when the player eats
@@ -377,6 +398,9 @@ namespace LastOfCode
 
     class NorthMap
     {
+        /// <summary>
+        /// Enters the North Map
+        /// </summary>
         public void goNorth() {
 
             // Encounter
@@ -449,6 +473,9 @@ namespace LastOfCode
 
     class SouthMap
     {
+        /// <summary>
+        /// Enters the South Map
+        /// </summary>
         public void goAlpha() {
 
             Development newDevelop = new Development();
@@ -468,6 +495,9 @@ namespace LastOfCode
 
     class EastMap
     {
+        /// <summary>
+        /// Enters the East Map
+        /// </summary>
         public void goBeta() {
 
             Development newDevelop = new Development();
@@ -486,6 +516,9 @@ namespace LastOfCode
 
     class WestMap
     {
+        /// <summary>
+        /// Enters the West Map
+        /// </summary>
         public void goCharlie() {
 
             Development newDevelop = new Development();
@@ -504,6 +537,9 @@ namespace LastOfCode
 
     class Development
     {
+        /// <summary>
+        /// Prints out a message saying the game is under development
+        /// </summary>
         public void Develop() {
 
             Console.WriteLine("\nUNDER DEVELOPMENT");
