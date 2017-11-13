@@ -8,7 +8,7 @@ Simple action RPG console game.
 
 REQUIREMENTS:
 
-- Visual Studio or just a another IDE
+- Visual Studio or just an another IDE
 - Sourcetree
 
 --------------------------------------------------------------------------------
@@ -24,14 +24,14 @@ Under the Local Git Repositories
 - Choose your file path where the repo is gonna be at
 - Then hit clone
 
-You will not have access to everything inside the repo from Visual Studio
+You will now have access to everything inside the repo from Visual Studio
 
 --------------------------------------------------------------------------------
 
 ACCESSING THE FILES FROM SOURCETREE:
 
 Download Sourcetree via their offical webside
-to access the folders in Sourcetree, then go to:
+To access the folders in Sourcetree, then go to:
 
 - File > Clone/New
 - Enter the <Last Of Code URL>
@@ -39,10 +39,10 @@ to access the folders in Sourcetree, then go to:
 - Name the repo if you wish so
 - Then hit clone
 
-You will not have full access to the repo via Sourcetree
-Too open one of the files, then simply click on the file you wish to open then:
+You will now have full access to the repo via Sourcetree
+To open one of the files, then simply click on the file you wish to open then:
 
-- Double click the '+' button and the file should open
+- Double click on the '+' button and the file should open
 - or right click on the file and click on 'Open Selected Version'
 
 --------------------------------------------------------------------------------
@@ -53,7 +53,7 @@ To save the files from Visual Studio to Sourcetree
 
 - Under 'Team Explorer' > Project > Changes
 - Give a description of what changes you have made
-- Hit commit all
+- Hit 'Commit All'
 - Now go back to 'Team Explorer' again and go to Sync
 - Under 'Outgoing Commits' click on 'Push' 
 
