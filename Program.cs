@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// Hej med dig!
+// Version 2.0.3
 
 // TODO Make a SNEW Map with diffirent enemies in each (Stronger enemies)
 // TODO Make a better Win/Dead screen
