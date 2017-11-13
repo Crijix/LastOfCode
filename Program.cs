@@ -82,7 +82,7 @@ namespace LastOfCode
             Console.Write("Your destiny: ");
         }
 
-    } // End of Main
+    } // End of Class Program
 
     /**********************\
     *                      *
