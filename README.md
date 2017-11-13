@@ -8,7 +8,7 @@ Simple action RPG console game.
 
 REQUIREMENTS:
 
-- Visual Studio or just an another IDE
+- Visual Studio or just another IDE
 - Sourcetree
 
 --------------------------------------------------------------------------------
