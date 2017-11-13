@@ -1,0 +1,2 @@
+# LastOfCode
+Documentation of LastOfCode
