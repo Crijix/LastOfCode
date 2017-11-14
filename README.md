@@ -1,7 +1,5 @@
-# LastOfCode
+# Last Of Code
 Documentation of LastOfCode
-
-LAST OF CODE
 
 Simple action RPG console game.
 
