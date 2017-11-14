@@ -62,9 +62,9 @@ Your files should now be saved to Sourcetree
 
 BUILT WITH:
 
-Visual Studio - Integrated Development Environment
-Sourcetree - Git Graphical User Interface
-GitHub - Web-Based Git
+ - Visual Studio - Integrated Development Environment
+ - Sourcetree - Git Graphical User Interface
+ - GitHub - Web-Based Git
 
 --------------------------------------------------------------------------------
 
