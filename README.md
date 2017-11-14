@@ -2,6 +2,7 @@
 Documentation of LastOfCode
 
 LAST OF CODE
+
 Simple action RPG console game.
 
 --------------------------------------------------------------------------------
@@ -75,4 +76,4 @@ Son Vo - Student/Programmer
 
 --------------------------------------------------------------------------------
 
-© 2017 SON VO ALL RIGHTS RESERVED
+Â© 2017 SON VO ALL RIGHTS RESERVED
