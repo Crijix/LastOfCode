@@ -19,6 +19,8 @@ namespace Movement
 
     class Player : KillScreen
     {
+        public string playerPick = "";
+
         /// <summary>
         /// Plays the game for the player
         /// </summary>
@@ -28,6 +30,8 @@ namespace Movement
             // Player
             Console.Write("\nChoose a move (Attack/Heavy/Defence/Inventory): ");
             string input = Console.ReadLine().ToLower().Trim();
+
+            playerPick = input;
 
             // TODO Try_Catch
             while (true)
@@ -112,6 +116,8 @@ namespace Movement
 
     class AI : KillScreen
     {
+        public int AIPick;
+
         /// <summary>
         /// Plays the game for the AI
         /// </summary>
@@ -120,6 +126,8 @@ namespace Movement
 
             Random botRNG = new Random();
             int botPick = botRNG.Next(1, 4);
+
+            AIPick = botPick;
 
             Moves move = new Moves
             {

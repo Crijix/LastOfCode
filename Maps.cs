@@ -21,7 +21,7 @@ namespace Maps
         /// <summary>
         /// Enters the North Map
         /// </summary>
-        public void goNorth()
+        public void GoNorth()
         {
             // Encounter
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -41,7 +41,7 @@ namespace Maps
 
             PlayGame();
 
-            CheckGame Game = new CheckGame();
+            var Game = new CheckGame();
             Game.Check();
         }
     } // End of North
@@ -59,10 +59,10 @@ namespace Maps
         /// <summary>
         /// Enters the South Map
         /// </summary>
-        public void goAlpha()
+        public void GoAlpha()
         {
             // Initialize new enemy
-            EnemyHealth zombie = new EnemyHealth(150);
+            var zombie = new EnemyHealth(150);
 
             // Encounter
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -73,7 +73,7 @@ namespace Maps
 
             PlayGame();
 
-            CheckGame Game = new CheckGame();
+            var Game = new CheckGame();
             Game.Check();
         }
         // TODO Complete the map duh
@@ -92,10 +92,10 @@ namespace Maps
         /// <summary>
         /// Enters the East Map
         /// </summary>
-        public void goBeta()
+        public void GoBeta()
         {
             // Initialize new enemy
-            SpawnEnemy monsterVampire = new SpawnEnemy()
+            var monsterVampire = new SpawnEnemy()
             {
                 Name = "Dr. Lul"
             };
@@ -112,11 +112,11 @@ namespace Maps
             PlayGame();
 
             // Initialize enemy
-            SpawnEnemy monsterWerewolf = new SpawnEnemy()
+            var monsterWerewolf = new SpawnEnemy()
             {
                 Name = "The Werewolf, Jerry"
             };
-            EnemyHealth Werewolf = new EnemyHealth(110);
+            var Werewolf = new EnemyHealth(110);
 
             System.Threading.Thread.Sleep(1000);
 
@@ -130,7 +130,7 @@ namespace Maps
 
             PlayGame();
 
-            CheckGame Game = new CheckGame();
+            var Game = new CheckGame();
             Game.Check();
 
         }
@@ -149,10 +149,10 @@ namespace Maps
         /// <summary>
         /// Enters the West Map
         /// </summary>
-        public void goCharlie()
+        public void GoCharlie()
         {
 
-            Development newDevelop = new Development();
+            var newDevelop = new Development();
             newDevelop.Develop();
 
         }

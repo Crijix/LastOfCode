@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Movement;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,14 +23,62 @@ namespace GameVariables
         // VARIABLES
 
         // Moves
-        public int attack;
-        public int heavy;
-        public int defence;
+        private int _attack;
+        private int _heavy;
+        private int _defence;
 
         // Heatlh
-        public static int playerHealth = 150;
-        public static int enemyHealth = 100; // Default Value for enemies
-        public static int[] enemyRNG = { 90, 100, 120 }; // Choose between one of the 3
+        private static int _playerHealth = 150;
+        private static int _enemyHealth = 100; // Default Value for enemies
+        private static int[] _enemyRNG = { 90, 100, 120 }; // Choose between one of the 3
+
+        // HEALTH GET AND SETTERS
+        public static int playerHealth
+        {
+            get { return _playerHealth; }
+            set { _playerHealth = value; }
+        }
+
+        public static int enemyHealth 
+        {
+
+            get { return _enemyHealth; }
+            set 
+            {
+                if (value <= 0)
+                {
+                    _enemyHealth = 0;
+                } else
+                {
+                    _enemyHealth = value;
+                }
+            }
+        }
+
+        private static int[] enemyRNG 
+        {
+            get { return _enemyRNG; }
+            set { _enemyRNG = value; }
+        }
+
+        // MOVES GET AND SETTERS
+        public int attack 
+        {
+            get { return _attack; }
+            set { _attack = value; }
+        }
+        
+        public int heavy 
+        {
+            get { return _heavy; }
+            set { _heavy = value; }
+        }
+
+        public int defence 
+        {
+            get { return _defence; }
+            set { _defence = value; }
+        }
 
         // Attack Generator
         /// <summary>
@@ -60,6 +109,12 @@ namespace GameVariables
         public Counter()
         {
             // TODO Make attacks counter each other
+            var Players = new Player();
+            var Bot = new AI();
+            if (Players.playerPick == "attack" && Bot.AIPick == 3)
+            {
+
+            }
         }
     }
 

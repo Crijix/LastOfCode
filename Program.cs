@@ -27,7 +27,7 @@ namespace LastOfCode
                 {
 
                     NorthMap newMap = new NorthMap();
-                    newMap.goNorth();
+                    newMap.GoNorth();
                     break;
 
                 }
@@ -35,7 +35,7 @@ namespace LastOfCode
                 {
 
                     SouthMap newMap = new SouthMap();
-                    newMap.goAlpha();
+                    newMap.GoAlpha();
                     break;
 
                 }
@@ -43,7 +43,7 @@ namespace LastOfCode
                 {
 
                     EastMap newMap = new EastMap();
-                    newMap.goBeta();
+                    newMap.GoBeta();
                     break;
 
                 }
@@ -51,7 +51,7 @@ namespace LastOfCode
                 {
 
                     WestMap newMap = new WestMap();
-                    newMap.goCharlie();
+                    newMap.GoCharlie();
                     break;
 
                 }
