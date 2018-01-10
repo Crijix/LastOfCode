@@ -1,0 +1,23 @@
+if (player.Pick = "attack" && AI.Pick = "defence") {
+	player.attack * 2;
+	AI.defence / 1.5;
+
+} else if (player.Pick = "attack" && AI.Pick = "heavy") {
+	player.attack * 1.7;
+	AI.heavy / 1.5;
+
+} else if (player.Pick = "heavy" && AI.Pick = "defence") {
+	player.heavy / 1.5;
+	AI.defence * 2;
+
+} else if (player.Pick = "heavy" && AI.Pick = "attack) {
+	player.heavy / 1.5;
+	AI.attack * 1.7;
+
+} else if (player.Pick = "defence" && AI.Pick = "heavy") {
+	player.defence * 2;
+	AI.heavy / 1.5;
+
+} else if (player.Pick = "defence" && AI.Pick = "attack) {
+	player.defence * 2;
+	AI.attack / 1.7;
